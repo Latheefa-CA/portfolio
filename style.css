@@ -15,12 +15,15 @@
   cursor: pointer;
   text-decoration: none;
 }
+.navbar-nav > .active > a {
+                color: #000;
+            }
 
 /* main section */
 
 
 .main h3{
-    font-size: 4.4rem;
+    font-size: 3.4rem;
     font-weight: 700;
 }
 .main h6{

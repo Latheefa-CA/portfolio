@@ -127,7 +127,7 @@
         <h1 class="text-center">My Works</h1>
         <div class="row p-5">
 
-          <div class="col-md-4 px-5">
+          <div class="col-md-4 ">
             <div class="card text-center p-3" data-aos="fade-right" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://latheefa-ca.github.io/Positive-Chip-Boards/" >
                 <img src="images/positive.jpeg"  class="card-img-top" alt="" style="height: 10em;"></a>
@@ -140,7 +140,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 px-5">
+          <div class="col-md-4 ">
             <div class="card text-center p-3" data-aos="fade-up" data-aos-duration="2000" style="width: 18rem;">
               <a href=" https://latheefa-ca.github.io/Microsoft-clone/
               " ><img src="images/microsoft.jpeg"  class="card-img-top" alt="" style="height: 10em;"></a>
@@ -154,7 +154,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 px-5">
+          <div class="col-md-4 ">
             <div class="card text-center p-3" data-aos="fade-left" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://latheefa-ca.github.io/Dominos-clone/
               " ><img src="images/dominos.jpeg"  class="card-img-top" alt="" style="height: 10em;"></a>
@@ -178,7 +178,7 @@
         <h1 class="text-center">Experiences</h1>
         <div class="row p-5 ">
 
-          <div class="col-md-6 px-5">
+          <div class="col-md-6 ">
             <div class="card text-center p-3" data-aos="flip-right" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://www.vcodeinfotech.com/index.php" >
               <img src="https://media.licdn.com/dms/image/v2/C560BAQED3jqHh6BfyQ/company-logo_200_200/company-logo_200_200/0/1630652471191/vcodeinfotech_logo?e=1746057600&v=beta&t=lMGGhP8FE2YkftCCNBWsBSiGKy3UZ1rbpptwvNVIboA" class="card-img-top" alt=""></a>
@@ -190,7 +190,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 px-5 ">
+          <div class="col-md-6  ">
             <div class="card text-center p-3" data-aos="flip-left" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://www.justdial.com/Idukki/Axtec-Software-Solutions-Near-Ksrtc-Bus-Stand-Thodupuzha/9999P4863-4863-110517145758-Q1T2_BZDET" >
               <img src="images/axtec.jpeg" class="card-img-top" alt="" style="height: 16em;"></a>
@@ -211,7 +211,7 @@
         <h1 class="text-center">Education</h1>
         <div class="row p-5">
 
-          <div class="col-md-4 px-5">
+          <div class="col-md-4 ">
             <div class="card text-center p-3" data-aos="zoom-in-right" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://www.linkedin.com/company/brototype/posts/?feedView=all " >
               <img src="https://media.licdn.com/dms/image/v2/C4D0BAQEWqmtyVtZl7Q/company-logo_200_200/company-logo_200_200/0/1653839709668/brototype_logo?e=1746057600&v=beta&t=ES5Tl8QBZlVZE9khWZaKLtZzV3usIRozyyQONB4Q01k" class="card-img-top" alt=""></a>
@@ -223,7 +223,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 px-5">
+          <div class="col-md-4 ">
             <div class="card text-center p-3" data-aos="zoom-in-up" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://www.mgu.ac.in/home/" >
               <img src="images/download.png" class="card-img-top" alt="" style="height: 16em;"></a>
@@ -235,7 +235,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 px-5">
+          <div class="col-md-4 ">
             <div class="card text-center p-3" data-aos="zoom-in-left" data-aos-duration="2000" style="width: 18rem;">
               <a href="https://www.mgu.ac.in/home/" >
               <img src="images/download.png" alt="" class="card-img-top" style="height: 16em;"></a>
@@ -308,7 +308,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
+     <script>
+          $(document).ready(function () {
+              $("ul.navbar-nav > li").click(function (e) {
+               $("ul.navbar-nav > li").removeClass("active");
+               $(this).addClass("active");
+                });
+            });
+        </script>
 
+    
     <script>
       $("#submit-form").submit((e)=>{
           e.preventDefault()
